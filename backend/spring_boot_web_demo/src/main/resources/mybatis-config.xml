@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!-- settings 中可以有哪些配置具体在 Mybatis 的 Configuration 类中 -->
+    <settings>
+        <setting name="safeRowBoundsEnabled" value="true"/>
+        <setting name="cacheEnabled" value="false" />
+        <setting name="useGeneratedKeys" value="true" />
+        <setting name="mapUnderscoreToCamelCase" value="true" />
+        <setting name="useColumnLabel" value="true" />
+    </settings>
+
+    <!--<typeAliases> -->
+    <!---->
+    <!--</typeAliases>-->
+
+    <!--<plugins> 可以在 SQL 执行前后进行监听 -->
+    <!--<plugin interceptor=""></plugin>-->
+    <!--</plugins>-->
+
+    <!--<typeHandlers>-->
+    <!---->
+    <!--</typeHandlers>-->
+
+</configuration>
